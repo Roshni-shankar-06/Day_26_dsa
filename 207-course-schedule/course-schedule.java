@@ -16,11 +16,6 @@ class Solution {
             adj.get(prerequisite).add(course);
             indegree[course]++;
         }
-        
-        // Queue for courses with 0 in-degree
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
-                queue.offer(i);
+       
      
          
