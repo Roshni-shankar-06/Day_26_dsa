@@ -15,9 +15,4 @@ class Solution:
                 max_open += 1  # treating * as '('
             
             # If max_open is negative, there are too many ')'
-            if max_open < 0:
-                return False
-                
-            # min_open shouldn't fall below 0 because we can choose to treat * as ""
-            if min_open < 0:
-               
+         
