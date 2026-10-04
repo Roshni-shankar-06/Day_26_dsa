@@ -15,13 +15,4 @@ class Solution {
         int maxPath = 0;
         
         // Calculate the maximum path starting from every possible cell
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                int currentPathLength = dfs(matrix, i, j, memo);
-                maxPath = Math.max(maxPath, currentPathLength);
-            }
-        }
-        
-        return maxPath;
-  
-     
+   
