@@ -31,13 +31,4 @@ class Solution {
             return memo[row][col];
         }
         
-        // Minimum path length for any single cell is 1 (the cell itself)
-        int max = 1;
-        
-        // Explore all 4 adjacent directions
-        for (int[] dir : DIRECTIONS) {
-            int nextRow = row + dir[0];
-            int nextCol = col + dir[1];
-            
-          
-           
+     
