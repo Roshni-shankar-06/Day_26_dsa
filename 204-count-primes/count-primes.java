@@ -12,11 +12,4 @@ class Solution {
         for (int i = 2; i * i < n; i++) {
             if (isPrime[i]) {
                 // Mark multiples of i starting from i*i as non-prime
-                for (int j = i * i; j < n; j += i) {
-                    isPrime[j] = false;
-                }
-            }
-        }
-        
-        int count = 0;
-       
+              
