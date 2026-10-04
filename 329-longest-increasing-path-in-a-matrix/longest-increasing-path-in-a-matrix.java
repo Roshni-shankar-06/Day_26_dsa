@@ -23,12 +23,5 @@ class Solution {
         }
         
         return maxPath;
-    }
-    
-    private int dfs(int[][] matrix, int row, int col, int[][] memo) {
-        // If the result has already been calculated for this cell, return it from cache
-        if (memo[row][col] != 0) {
-            return memo[row][col];
-        }
-        
+  
      
