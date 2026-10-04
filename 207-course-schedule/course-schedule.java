@@ -29,8 +29,5 @@ class Solution {
         
         while (!queue.isEmpty()) {
             int current = queue.poll();
-            completedCourses++;
-            
-            for (int neighbor : adj.get(current)) {
-                indegree[neighbor]--;
+        
          
