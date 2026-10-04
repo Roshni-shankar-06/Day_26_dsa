@@ -44,13 +44,4 @@ class Solution {
                 nextCol >= 0 && nextCol < matrix[0].length && 
                 matrix[nextRow][nextCol] > matrix[row][col]) {
                 
-                int len = 1 + dfs(matrix, nextRow, nextCol, memo);
-                max = Math.max(max, len);
-            }
-        }
-        
-        // Save the result in our memoization array before returning
-        memo[row][col] = max;
-        return max;
-    }
-}
+           
