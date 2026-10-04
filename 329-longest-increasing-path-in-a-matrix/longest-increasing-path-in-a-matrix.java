@@ -9,10 +9,4 @@ class Solution {
         
         int m = matrix.length;
         int n = matrix[0].length;
-        
-        // memo[i][j] stores the longest increasing path starting from cell (i, j)
-        int[][] memo = new int[m][n];
-        int maxPath = 0;
-        
-        // Calculate the maximum path starting from every possible cell
-   
+    
