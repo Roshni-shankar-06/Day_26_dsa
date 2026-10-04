@@ -7,7 +7,4 @@ class Solution {
             decimalValue = (decimalValue << 1) | head.val;
             head = head.next;
         }
-        
-        return decimalValue;
-    }
-}
+    
