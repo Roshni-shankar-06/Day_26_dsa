@@ -10,12 +10,4 @@ class Solution {
             adj.add(new ArrayList<>());
         }
         
-        for (int[] pre : prerequisites) {
-            int course = pre[0];
-            int prerequisite = pre[1];
-            adj.get(prerequisite).add(course);
-            indegree[course]++;
-        }
-       
-     
-         
+    
