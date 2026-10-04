@@ -8,7 +8,4 @@ class Solution:
                 min_open += 1
                 max_open += 1
             elif char == ')':
-                min_open -= 1
-                max_open -= 1
-            elif char == '*':
-           
+            
