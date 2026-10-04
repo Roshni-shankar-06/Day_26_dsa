@@ -20,7 +20,4 @@ class Solution:
                 
             # min_open shouldn't fall below 0 because we can choose to treat * as ""
             if min_open < 0:
-                min_open = 0
-                
-        # If min_open is 0, we can successfully form a valid sequence
-        return min_open == 0
+               
