@@ -11,8 +11,4 @@ class Solution:
                 min_open -= 1
                 max_open -= 1
             elif char == '*':
-                min_open -= 1  # treating * as ')'
-                max_open += 1  # treating * as '('
-            
-            # If max_open is negative, there are too many ')'
-         
+           
