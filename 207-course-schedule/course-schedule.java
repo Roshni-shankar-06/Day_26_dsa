@@ -22,12 +22,5 @@ class Solution {
         for (int i = 0; i < numCourses; i++) {
             if (indegree[i] == 0) {
                 queue.offer(i);
-            }
-        }
-        
-        int completedCourses = 0;
-        
-        while (!queue.isEmpty()) {
-            int current = queue.poll();
-        
+     
          
