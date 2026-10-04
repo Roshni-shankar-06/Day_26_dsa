@@ -33,13 +33,4 @@ class Solution {
             
             for (int neighbor : adj.get(current)) {
                 indegree[neighbor]--;
-                if (indegree[neighbor] == 0) {
-                    queue.offer(neighbor);
-                }
-            }
-        }
-        
-        // If we can complete all courses, there are no cycles
-        return completedCourses == numCourses;
-    }
-}
+         
