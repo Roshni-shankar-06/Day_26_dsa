@@ -6,9 +6,4 @@ class Solution {
         for (int i = 0; i < arr.length - quarterSpan; i++) {
             if (arr[i] == arr[i + quarterSpan]) {
                 return arr[i];
-            }
-        }
         
-        return -1;
-    }
-}
