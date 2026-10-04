@@ -2,9 +2,4 @@ class Solution {
     public int countPrimes(int n) {
         if (n <= 2) return 0;
         
-        boolean[] isPrime = new boolean[n];
-        // Initialize all indices from 2 to n-1 as true
-        for (int i = 2; i < n; i++) {
-            isPrime[i] = true;
-        }
      
