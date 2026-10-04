@@ -39,9 +39,5 @@ class Solution {
             int nextRow = row + dir[0];
             int nextCol = col + dir[1];
             
-            // Check boundaries and guarantee the next cell's value is strictly increasing
-            if (nextRow >= 0 && nextRow < matrix.length && 
-                nextCol >= 0 && nextCol < matrix[0].length && 
-                matrix[nextRow][nextCol] > matrix[row][col]) {
-                
+          
            
