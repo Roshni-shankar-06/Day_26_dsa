@@ -7,9 +7,4 @@ class Solution {
         for (int i = 2; i < n; i++) {
             isPrime[i] = true;
         }
-        
-        // Loop up to the square root of n
-        for (int i = 2; i * i < n; i++) {
-            if (isPrime[i]) {
-                // Mark multiples of i starting from i*i as non-prime
-              
+     
